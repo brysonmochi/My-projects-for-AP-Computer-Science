@@ -1,0 +1,66 @@
+html, #aboutme {
+  height: 100%;
+  width: 100%;
+}
+
+body, #aboutme {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a, #aboutme {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: #aeccea;
+}
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(164, 148, 137);
+  color: rgb(215, 198, 198)
+}
+
+header h1 {
+  font-size: 2em;
+  color: rgb(255, 255, 255)
+}
+
+header nav ul li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto; /* centers projects div */
+  width: 90%; /* adds space on either side */
+  max-width: 600px; /*keeps div from getting too wide*/
+  color: rgb(198, 199, 199)
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(164, 148, 137);
+}
+
+.project img, #aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project h2, #aboutme h2 { /*Image Header*/
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: rgb(215, 198, 198)
+}
+
+body, #aboutme {
+  background-color: rgb(29,37,42); /*Background Color*/
+}
+
