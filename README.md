@@ -1,2 +1,2 @@
-# My-projects-for-AP-Computer-Science
+# AP CS Projects
 My projects for AP Computer Science
